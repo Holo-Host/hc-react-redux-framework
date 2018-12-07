@@ -1,4 +1,6 @@
 import * as React from 'react'
+import Button from '@material-ui/core/Button'
+
 import { StyleRulesCallback } from '@material-ui/core/'
 import { withStyles, Theme } from '@material-ui/core/styles'
 
@@ -31,7 +33,9 @@ class ButtonComponent extends React.Component<Props, State> {
   render () {
     return (
       <div>
-      buttonComponent
+          <Button variant='contained' color='primary'>
+            Primary
+          </Button>
       </div>
     )
   }

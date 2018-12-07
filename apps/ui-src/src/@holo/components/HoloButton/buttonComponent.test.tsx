@@ -25,4 +25,10 @@ export const somethingTests = describe('describe something', () => {
     buttonComponent().simulate('click')
     expect(true)
   })
+
+  it('Should have the buttonComponent text "Primary"', () => {
+    let wrapper = mount(<SomeThing {...props}/>)
+    expect(wrapper.text()).toContain('Primary')
+  })
+
 })
