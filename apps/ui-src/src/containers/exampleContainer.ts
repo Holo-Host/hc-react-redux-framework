@@ -1,10 +1,10 @@
 
 import { connect } from 'react-redux'
 import { Dispatch } from 'redux'
-import ExampleComponent, { StateProps, DispatchProps } from '../components/exampleComponent'
+import ExampleComponent, { StateProps, DispatchProps } from '../@holo/components/HoloExample/exampleComponent'
 
-import { State } from '../reducers/reducer'
-import { ExampleHolochainAction } from '../actions/actions'
+import { State } from '../store/reducers/reducer'
+import { ExampleHolochainAction } from '../store/actions/actions'
 
 const mapStateToProps = (state: State): StateProps => {
   return {

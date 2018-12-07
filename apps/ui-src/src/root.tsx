@@ -3,7 +3,7 @@ import { Store } from 'redux'
 import { Provider } from 'react-redux'
 import { BrowserRouter as Router, Route } from 'react-router-dom'
 
-import ExampleComponent from './components/exampleComponent'
+import ExampleComponent from './@holo/components/HoloExample/exampleComponent'
 
 const Root = ({ store }: {store: Store}) => (
   <Provider store={store}>

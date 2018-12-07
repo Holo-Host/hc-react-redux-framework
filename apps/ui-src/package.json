@@ -5,8 +5,10 @@
   "proxy": "http://localhost:4141",
   "dependencies": {
     "@material-ui/core": "^3.2.0",
+    "@types/expect": "^1.20.3",
     "axios": "^0.18.0",
     "axios-mock-adapter": "^1.15.0",
+    "expect": "^23.6.0",
     "react": "16.4.2",
     "react-markdown": "^3.3.0",
     "react-redux": "^5.0.7",

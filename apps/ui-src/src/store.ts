@@ -3,7 +3,7 @@ import { combineReducers, createStore, applyMiddleware, compose } from 'redux'
 // @ts-ignore
 import axiosMiddleware from 'redux-axios-middleware'
 import axios from 'axios'
-import { reducer } from './reducers/reducer'
+import { reducer } from './store/reducers/reducer'
 
 const holochainClient = axios.create({
   baseURL: '/fn/holochain/callBridgedFunction',

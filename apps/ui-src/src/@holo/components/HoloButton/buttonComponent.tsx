@@ -31,7 +31,7 @@ class ButtonComponent extends React.Component<Props, State> {
   render () {
     return (
       <div>
-      exampleComponent
+      buttonComponent
       </div>
     )
   }
