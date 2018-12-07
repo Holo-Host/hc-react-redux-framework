@@ -37,4 +37,4 @@ class ButtonComponent extends React.Component<Props, State> {
   }
 }
 
-export default withStyles(styles)(ExampleComponent)
+export default withStyles(styles)(ButtonComponent)
