@@ -22,7 +22,7 @@ export const autoCompleteProfileFieldTests = describe('Auto selecting Persona va
     mountedExampleComponent = undefined
   })
 
-  it('Can do the thing we want it do do', () => {
+  it('Can do the thing we want it to do', () => {
     exampleComponent().simulate('click')
     expect(true)
   })

@@ -21,9 +21,9 @@ export const somethingTests = describe('describe something', () => {
     mountedButtonComponent = undefined
   })
 
-  it('Can do the thing we want it do do', () => {
+  it('Can do the thing we want it to do', () => {
     buttonComponent().simulate('click')
-    expect(true)
+    expect(false) // this isn't causing a failure :-(
   })
 
   it('Should have the buttonComponent text "Primary"', () => {

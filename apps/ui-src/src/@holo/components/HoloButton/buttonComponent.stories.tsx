@@ -15,15 +15,6 @@ storiesOf('ButtonComponent', module)
 
       specs(() => somethingTests)
 
-      /*
-      specs(() => describe('ButtonComponent', function () {
-        it('Should have the buttonComponent text', function () {
-          let output = mount(button)
-          expect(output.text()).toContain('buttonComponent')
-        })
-      }))
-      */
-
       return button
     }
 )
