@@ -4,9 +4,8 @@ import { storiesOf } from '@storybook/react'
 // import { withNotes } from '@storybook/addon-notes'
 import ButtonComponent from './buttonComponent'
 // import { autoCompleteProfileFieldTests } from './exampleComponent.test'
-import { specs, describe, it } from 'storybook-addon-specifications'
-import { mount } from 'enzyme'
-import { expect } from 'expect'
+import { specs } from 'storybook-addon-specifications'
+import { somethingTests } from './buttonComponent.test'
 
 storiesOf('ButtonComponent', module)
     .add('ButtonComponent', () => {
@@ -14,12 +13,16 @@ storiesOf('ButtonComponent', module)
         <ButtonComponent ownStatus='ready'/>
       )
 
+      specs(() => somethingTests)
+
+      /*
       specs(() => describe('ButtonComponent', function () {
         it('Should have the buttonComponent text', function () {
           let output = mount(button)
           expect(output.text()).toContain('buttonComponent')
         })
       }))
+      */
 
       return button
     }
