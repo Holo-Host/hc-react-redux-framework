@@ -3,4 +3,4 @@ A react-redux framework for building Holo and Holochain applications with a Stor
 
 ## Coming soon: 
 #### Storybook
-Here is a Storybook of the components at [Holo Live Storybook](https://holochain.github.io/holo-ui).
+Here is a Storybook of the components at [Holo Live Storybook](!https://holochain.github.io/holo-ui).
