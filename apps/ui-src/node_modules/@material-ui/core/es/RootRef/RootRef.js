@@ -1,7 +1,7 @@
 import React from 'react';
 import ReactDOM from 'react-dom';
 import PropTypes from 'prop-types';
-import exactProp from '../utils/exactProp';
+import { exactProp } from '@material-ui/utils';
 import { setRef } from '../utils/reactHelpers';
 /**
  * Helper component to allow attaching a ref to a
@@ -64,7 +64,7 @@ class RootRef extends React.Component {
 
 }
 
-RootRef.propTypes = process.env.NODE_ENV !== "production" ? {
+process.env.NODE_ENV !== "production" ? RootRef.propTypes = {
   /**
    * The wrapped element.
    */
@@ -75,6 +75,10 @@ RootRef.propTypes = process.env.NODE_ENV !== "production" ? {
    * You can provide a callback ref or a `React.createRef()` ref.
    */
   rootRef: PropTypes.oneOfType([PropTypes.func, PropTypes.object]).isRequired
-} : {};
-RootRef.propTypes = process.env.NODE_ENV !== "production" ? exactProp(RootRef.propTypes) : {};
+} : void 0;
+
+if (process.env.NODE_ENV !== 'production') {
+  process.env.NODE_ENV !== "production" ? RootRef.propTypes = exactProp(RootRef.propTypes) : void 0;
+}
+
 export default RootRef;

@@ -2,7 +2,7 @@
 import React from 'react';
 import PropTypes from 'prop-types';
 import { withStyles } from '../styles';
-import exactProp from '../utils/exactProp';
+import { exactProp } from '@material-ui/utils';
 
 const styles = theme => ({
   '@global': {
@@ -41,7 +41,7 @@ class CssBaseline extends React.Component {
 
 }
 
-CssBaseline.propTypes = process.env.NODE_ENV !== "production" ? {
+process.env.NODE_ENV !== "production" ? CssBaseline.propTypes = {
   /**
    * You can wrap a node.
    */
@@ -51,8 +51,12 @@ CssBaseline.propTypes = process.env.NODE_ENV !== "production" ? {
    * @ignore
    */
   classes: PropTypes.object.isRequired
-} : {};
-CssBaseline.propTypes = process.env.NODE_ENV !== "production" ? exactProp(CssBaseline.propTypes) : {};
+} : void 0;
+
+if (process.env.NODE_ENV !== 'production') {
+  process.env.NODE_ENV !== "production" ? CssBaseline.propTypes = exactProp(CssBaseline.propTypes) : void 0;
+}
+
 CssBaseline.defaultProps = {
   children: null
 };

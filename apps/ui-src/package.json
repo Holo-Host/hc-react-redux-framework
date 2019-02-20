@@ -5,6 +5,9 @@
   "proxy": "http://localhost:4141",
   "dependencies": {
     "@material-ui/core": "^3.2.0",
+    "@storybook/addon-actions": "^4.1.12",
+    "@storybook/addon-links": "^4.1.12",
+    "@storybook/addons": "^4.1.12",
     "@types/expect": "^1.20.3",
     "axios": "^0.18.0",
     "axios-mock-adapter": "^1.15.0",
@@ -27,6 +30,8 @@
     "coverage": "react-scripts-ts test --env=jsdom --coverage --collectCoverageFrom=!src/**/*.d.ts --collectCoverageFrom=!src/**/*.stories.tsx --collectCoverageFrom=!src/**/data/*.ts --collectCoverageFrom=src/**/*.ts --collectCoverageFrom=src/**/*.tsx",
     "release:files": "node copy-release.js",
     "storybook": "start-storybook -p 6006 -c .storybook",
+    "build-storybook": "build-storybook -s public",
+    "deploy-storybook": "storybook-to-ghpages",
     "tslint": "tslint --project ./tsconfig.json",
     "tslint:fix": "tslint --project ./tsconfig.json --fix"
   },
@@ -36,7 +41,7 @@
     "@storybook/addon-notes": "^3.4.10",
     "@storybook/addon-viewport": "^3.4.10",
     "@storybook/react": "^3.4.0",
-    "@storybook/storybook-deployer": "^2.3.0",
+    "@storybook/storybook-deployer": "^2.8.1",
     "@types/axios": "^0.14.0",
     "@types/axios-mock-adapter": "^1.10.0",
     "@types/classnames": "^2.2.6",

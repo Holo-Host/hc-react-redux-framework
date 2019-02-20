@@ -23,6 +23,12 @@ Object.defineProperty(exports, "createRender", {
     return _createRender.default;
   }
 });
+Object.defineProperty(exports, "findOutermostIntrinsic", {
+  enumerable: true,
+  get: function get() {
+    return _findOutermostIntrinsic.default;
+  }
+});
 Object.defineProperty(exports, "getClasses", {
   enumerable: true,
   get: function get() {
@@ -41,6 +47,8 @@ var _createShallow = _interopRequireDefault(require("./createShallow"));
 var _createMount = _interopRequireDefault(require("./createMount"));
 
 var _createRender = _interopRequireDefault(require("./createRender"));
+
+var _findOutermostIntrinsic = _interopRequireDefault(require("./findOutermostIntrinsic"));
 
 var _getClasses = _interopRequireDefault(require("./getClasses"));
 

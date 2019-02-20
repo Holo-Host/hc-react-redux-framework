@@ -11,8 +11,6 @@ var _objectWithoutProperties2 = _interopRequireDefault(require("@babel/runtime/h
 
 var _warning = _interopRequireDefault(require("warning"));
 
-/* eslint-disable no-param-reassign */
-
 /* eslint-disable no-restricted-globals */
 // Follow https://material.google.com/motion/duration-easing.html#duration-easing-natural-easing-curves
 // to learn the context in which each easing should be used.

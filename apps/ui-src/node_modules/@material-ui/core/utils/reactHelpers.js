@@ -14,7 +14,6 @@ var _react = _interopRequireDefault(require("react"));
 
 var _classnames = _interopRequireDefault(require("classnames"));
 
-/* eslint-disable import/prefer-default-export */
 function cloneElementWithClassName(child, className) {
   return _react.default.cloneElement(child, {
     className: (0, _classnames.default)(child.props.className, className)

@@ -81,7 +81,7 @@ function StepIcon(props) {
   return icon;
 }
 
-StepIcon.propTypes = process.env.NODE_ENV !== "production" ? {
+process.env.NODE_ENV !== "production" ? StepIcon.propTypes = {
   /**
    * Whether this step is active.
    */
@@ -107,7 +107,7 @@ StepIcon.propTypes = process.env.NODE_ENV !== "production" ? {
    * The icon displayed by the step label.
    */
   icon: PropTypes.node.isRequired
-} : {};
+} : void 0;
 StepIcon.defaultProps = {
   active: false,
   completed: false,

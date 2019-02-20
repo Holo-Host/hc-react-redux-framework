@@ -1,0 +1,590 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Storyshots Header default 1`] = `
+<header>
+  <header
+    className="MuiPaper-root-9 MuiPaper-elevation4-15 MuiAppBar-root-1 MuiAppBar-positionStatic-5 MuiAppBar-colorDefault-6"
+  >
+    <div
+      className="MuiToolbar-root-36 MuiToolbar-gutters-37"
+    >
+      <h2
+        className="MuiTypography-root-38 MuiTypography-title-44 MuiTypography-colorInherit-57"
+      >
+        Top rated movies
+      </h2>
+    </div>
+  </header>
+</header>
+`;
+
+exports[`Storyshots MovieListItem No image 1`] = `
+<div>
+  <div
+    style={
+      Object {
+        "backgroundColor": "lightblue",
+      }
+    }
+  >
+    Above
+  </div>
+  <div
+    className="MuiPaper-root-154 MuiPaper-elevation1-157 MuiPaper-rounded-155 MuiCard-root-153 movie-list-item"
+  >
+    
+    <div
+      className="MuiCardContent-root-181"
+    >
+      <h2
+        className="MuiTypography-root-182 MuiTypography-headline-187 MuiTypography-gutterBottom-199"
+      >
+        Pulp Fiction
+      </h2>
+      <p
+        className="MuiTypography-root-182 MuiTypography-body1-191"
+      >
+        A burger-loving hit man, his philosophical partner, a drug-addled gangster's moll and a washed-up boxer converge in this sprawling, comedic crime caper. Their adventures unfurl in three stories that ingeniously trip back and forth in time.
+      </p>
+    </div>
+    <div
+      className="MuiCardActions-root-206"
+    >
+      <button
+        className="MuiButtonBase-root-232 MuiButton-root-208 MuiButton-text-210 MuiButton-textPrimary-211 MuiButton-flat-213 MuiButton-flatPrimary-214 MuiButton-sizeSmall-229 MuiCardActions-action-207"
+        disabled={false}
+        onBlur={[Function]}
+        onClick={[Function]}
+        onFocus={[Function]}
+        onKeyDown={[Function]}
+        onKeyUp={[Function]}
+        onMouseDown={[Function]}
+        onMouseLeave={[Function]}
+        onMouseUp={[Function]}
+        onTouchEnd={[Function]}
+        onTouchMove={[Function]}
+        onTouchStart={[Function]}
+        tabIndex="0"
+        type="button"
+      >
+        <span
+          className="MuiButton-label-209"
+        >
+          Learn More
+        </span>
+        <span
+          className="MuiTouchRipple-root-235"
+        />
+      </button>
+    </div>
+  </div>
+  <div
+    style={
+      Object {
+        "backgroundColor": "lightblue",
+      }
+    }
+  >
+    Below
+  </div>
+</div>
+`;
+
+exports[`Storyshots MovieListItem With Knobs 1`] = `
+<div>
+  <div
+    style={
+      Object {
+        "backgroundColor": "lightblue",
+      }
+    }
+  >
+    Above
+  </div>
+  <div
+    className="MuiPaper-root-243 MuiPaper-elevation1-246 MuiPaper-rounded-244 MuiCard-root-242 movie-list-item"
+  >
+    <div
+      className="MuiCardMedia-root-270 movie-list-item-image"
+      src={undefined}
+      style={
+        Object {
+          "backgroundImage": "url(\\"//image.tmdb.org/t/p/w300/4cDFJr4HnXN5AdPw4AKrmLlMWdO.jpg\\")",
+        }
+      }
+      title="Pulp Fiction"
+    />
+    <div
+      className="MuiCardContent-root-272"
+    >
+      <h2
+        className="MuiTypography-root-273 MuiTypography-headline-278 MuiTypography-gutterBottom-290"
+      >
+        Pulp Fiction
+      </h2>
+      <p
+        className="MuiTypography-root-273 MuiTypography-body1-282"
+      >
+        A burger-loving hit man, his philosophical partner, a drug-addled gangster's moll and a washed-up boxer converge in this sprawling, comedic crime caper. Their adventures unfurl in three stories that ingeniously trip back and forth in time.
+      </p>
+    </div>
+    <div
+      className="MuiCardActions-root-297"
+    >
+      <button
+        className="MuiButtonBase-root-323 MuiButton-root-299 MuiButton-text-301 MuiButton-textPrimary-302 MuiButton-flat-304 MuiButton-flatPrimary-305 MuiButton-sizeSmall-320 MuiCardActions-action-298"
+        disabled={false}
+        onBlur={[Function]}
+        onClick={[Function]}
+        onFocus={[Function]}
+        onKeyDown={[Function]}
+        onKeyUp={[Function]}
+        onMouseDown={[Function]}
+        onMouseLeave={[Function]}
+        onMouseUp={[Function]}
+        onTouchEnd={[Function]}
+        onTouchMove={[Function]}
+        onTouchStart={[Function]}
+        tabIndex="0"
+        type="button"
+      >
+        <span
+          className="MuiButton-label-300"
+        >
+          Learn More
+        </span>
+        <span
+          className="MuiTouchRipple-root-326"
+        />
+      </button>
+    </div>
+  </div>
+  <div
+    style={
+      Object {
+        "backgroundColor": "lightblue",
+      }
+    }
+  >
+    Below
+  </div>
+</div>
+`;
+
+exports[`Storyshots MovieListItem default 1`] = `
+<div>
+  <div
+    style={
+      Object {
+        "backgroundColor": "lightblue",
+      }
+    }
+  >
+    Above
+  </div>
+  <div
+    className="MuiPaper-root-63 MuiPaper-elevation1-66 MuiPaper-rounded-64 MuiCard-root-62 movie-list-item"
+  >
+    <div
+      className="MuiCardMedia-root-90 movie-list-item-image"
+      src={undefined}
+      style={
+        Object {
+          "backgroundImage": "url(\\"//image.tmdb.org/t/p/w300/4cDFJr4HnXN5AdPw4AKrmLlMWdO.jpg\\")",
+        }
+      }
+      title="Pulp Fiction"
+    />
+    <div
+      className="MuiCardContent-root-92"
+    >
+      <h2
+        className="MuiTypography-root-93 MuiTypography-headline-98 MuiTypography-gutterBottom-110"
+      >
+        Pulp Fiction
+      </h2>
+      <p
+        className="MuiTypography-root-93 MuiTypography-body1-102"
+      >
+        A burger-loving hit man, his philosophical partner, a drug-addled gangster's moll and a washed-up boxer converge in this sprawling, comedic crime caper. Their adventures unfurl in three stories that ingeniously trip back and forth in time.
+      </p>
+    </div>
+    <div
+      className="MuiCardActions-root-117"
+    >
+      <button
+        className="MuiButtonBase-root-143 MuiButton-root-119 MuiButton-text-121 MuiButton-textPrimary-122 MuiButton-flat-124 MuiButton-flatPrimary-125 MuiButton-sizeSmall-140 MuiCardActions-action-118"
+        disabled={false}
+        onBlur={[Function]}
+        onClick={[Function]}
+        onFocus={[Function]}
+        onKeyDown={[Function]}
+        onKeyUp={[Function]}
+        onMouseDown={[Function]}
+        onMouseLeave={[Function]}
+        onMouseUp={[Function]}
+        onTouchEnd={[Function]}
+        onTouchMove={[Function]}
+        onTouchStart={[Function]}
+        tabIndex="0"
+        type="button"
+      >
+        <span
+          className="MuiButton-label-120"
+        >
+          Learn More
+        </span>
+        <span
+          className="MuiTouchRipple-root-146"
+        />
+      </button>
+    </div>
+  </div>
+  <div
+    style={
+      Object {
+        "backgroundColor": "lightblue",
+      }
+    }
+  >
+    Below
+  </div>
+</div>
+`;
+
+exports[`Storyshots MoviesList When loading 1`] = `
+<div
+  className="MuiLinearProgress-root-426 MuiLinearProgress-colorPrimary-427"
+  role="progressbar"
+>
+  <div
+    className="MuiLinearProgress-bar-434 MuiLinearProgress-barColorPrimary-435 MuiLinearProgress-bar1Indeterminate-437"
+    style={Object {}}
+  />
+  <div
+    className="MuiLinearProgress-bar-434 MuiLinearProgress-barColorPrimary-435 MuiLinearProgress-bar2Indeterminate-438"
+    style={Object {}}
+  />
+</div>
+`;
+
+exports[`Storyshots MoviesList With error 1`] = `
+<p
+  className="MuiTypography-root-442 MuiTypography-body1-451 MuiTypography-colorError-465"
+>
+  Some error message
+</p>
+`;
+
+exports[`Storyshots MoviesList With movies 1`] = `
+<ul
+  className="MuiGridList-root-334"
+  style={
+    Object {
+      "margin": -2,
+    }
+  }
+>
+  <div
+    className="MuiPaper-root-336 MuiPaper-elevation1-339 MuiPaper-rounded-337 MuiCard-root-335 movie-list-item"
+  >
+    <div
+      className="MuiCardMedia-root-363 movie-list-item-image"
+      src={undefined}
+      style={
+        Object {
+          "backgroundImage": "url(\\"//image.tmdb.org/t/p/w300/6xKCYgH16UuwEGAyroLU6p8HLIn.jpg\\")",
+        }
+      }
+      title="The Godfather"
+    />
+    <div
+      className="MuiCardContent-root-365"
+    >
+      <h2
+        className="MuiTypography-root-366 MuiTypography-headline-371 MuiTypography-gutterBottom-383"
+      >
+        The Godfather
+      </h2>
+      <p
+        className="MuiTypography-root-366 MuiTypography-body1-375"
+      >
+        Spanning the years 1945 to 1955, a chronicle of the fictional Italian-American Corleone crime family. When organized crime family patriarch, Vito Corleone barely survives an attempt on his life, his youngest son, Michael steps in to take care of the would-be killers, launching a campaign of bloody revenge.
+      </p>
+    </div>
+    <div
+      className="MuiCardActions-root-390"
+    >
+      <button
+        className="MuiButtonBase-root-416 MuiButton-root-392 MuiButton-text-394 MuiButton-textPrimary-395 MuiButton-flat-397 MuiButton-flatPrimary-398 MuiButton-sizeSmall-413 MuiCardActions-action-391"
+        disabled={false}
+        onBlur={[Function]}
+        onClick={undefined}
+        onFocus={[Function]}
+        onKeyDown={[Function]}
+        onKeyUp={[Function]}
+        onMouseDown={[Function]}
+        onMouseLeave={[Function]}
+        onMouseUp={[Function]}
+        onTouchEnd={[Function]}
+        onTouchMove={[Function]}
+        onTouchStart={[Function]}
+        tabIndex="0"
+        type="button"
+      >
+        <span
+          className="MuiButton-label-393"
+        >
+          Learn More
+        </span>
+        <span
+          className="MuiTouchRipple-root-419"
+        />
+      </button>
+    </div>
+  </div>
+  <div
+    className="MuiPaper-root-336 MuiPaper-elevation1-339 MuiPaper-rounded-337 MuiCard-root-335 movie-list-item"
+  >
+    <div
+      className="MuiCardMedia-root-363 movie-list-item-image"
+      src={undefined}
+      style={
+        Object {
+          "backgroundImage": "url(\\"//image.tmdb.org/t/p/w300/4cDFJr4HnXN5AdPw4AKrmLlMWdO.jpg\\")",
+        }
+      }
+      title="Pulp Fiction"
+    />
+    <div
+      className="MuiCardContent-root-365"
+    >
+      <h2
+        className="MuiTypography-root-366 MuiTypography-headline-371 MuiTypography-gutterBottom-383"
+      >
+        Pulp Fiction
+      </h2>
+      <p
+        className="MuiTypography-root-366 MuiTypography-body1-375"
+      >
+        A burger-loving hit man, his philosophical partner, a drug-addled gangster's moll and a washed-up boxer converge in this sprawling, comedic crime caper. Their adventures unfurl in three stories that ingeniously trip back and forth in time.
+      </p>
+    </div>
+    <div
+      className="MuiCardActions-root-390"
+    >
+      <button
+        className="MuiButtonBase-root-416 MuiButton-root-392 MuiButton-text-394 MuiButton-textPrimary-395 MuiButton-flat-397 MuiButton-flatPrimary-398 MuiButton-sizeSmall-413 MuiCardActions-action-391"
+        disabled={false}
+        onBlur={[Function]}
+        onClick={undefined}
+        onFocus={[Function]}
+        onKeyDown={[Function]}
+        onKeyUp={[Function]}
+        onMouseDown={[Function]}
+        onMouseLeave={[Function]}
+        onMouseUp={[Function]}
+        onTouchEnd={[Function]}
+        onTouchMove={[Function]}
+        onTouchStart={[Function]}
+        tabIndex="0"
+        type="button"
+      >
+        <span
+          className="MuiButton-label-393"
+        >
+          Learn More
+        </span>
+        <span
+          className="MuiTouchRipple-root-419"
+        />
+      </button>
+    </div>
+  </div>
+  <div
+    className="MuiPaper-root-336 MuiPaper-elevation1-339 MuiPaper-rounded-337 MuiCard-root-335 movie-list-item"
+  >
+    <div
+      className="MuiCardMedia-root-363 movie-list-item-image"
+      src={undefined}
+      style={
+        Object {
+          "backgroundImage": "url(\\"//image.tmdb.org/t/p/w300/gLbBRyS7MBrmVUNce91Hmx9vzqI.jpg\\")",
+        }
+      }
+      title="The Godfather: Part II"
+    />
+    <div
+      className="MuiCardContent-root-365"
+    >
+      <h2
+        className="MuiTypography-root-366 MuiTypography-headline-371 MuiTypography-gutterBottom-383"
+      >
+        The Godfather: Part II
+      </h2>
+      <p
+        className="MuiTypography-root-366 MuiTypography-body1-375"
+      >
+        In the continuing saga of the Corleone crime family, a young Vito Corleone grows up in Sicily and in 1910s New York. In the 1950s, Michael Corleone attempts to expand the family business into Las Vegas, Hollywood and Cuba.
+      </p>
+    </div>
+    <div
+      className="MuiCardActions-root-390"
+    >
+      <button
+        className="MuiButtonBase-root-416 MuiButton-root-392 MuiButton-text-394 MuiButton-textPrimary-395 MuiButton-flat-397 MuiButton-flatPrimary-398 MuiButton-sizeSmall-413 MuiCardActions-action-391"
+        disabled={false}
+        onBlur={[Function]}
+        onClick={undefined}
+        onFocus={[Function]}
+        onKeyDown={[Function]}
+        onKeyUp={[Function]}
+        onMouseDown={[Function]}
+        onMouseLeave={[Function]}
+        onMouseUp={[Function]}
+        onTouchEnd={[Function]}
+        onTouchMove={[Function]}
+        onTouchStart={[Function]}
+        tabIndex="0"
+        type="button"
+      >
+        <span
+          className="MuiButton-label-393"
+        >
+          Learn More
+        </span>
+        <span
+          className="MuiTouchRipple-root-419"
+        />
+      </button>
+    </div>
+  </div>
+  <div
+    className="MuiPaper-root-336 MuiPaper-elevation1-339 MuiPaper-rounded-337 MuiCard-root-335 movie-list-item"
+  >
+    <div
+      className="MuiCardMedia-root-363 movie-list-item-image"
+      src={undefined}
+      style={
+        Object {
+          "backgroundImage": "url(\\"//image.tmdb.org/t/p/w300/vnT6HzjLSDrAweHn9xWykb8Ii6T.jpg\\")",
+        }
+      }
+      title="Once Upon a Time in America"
+    />
+    <div
+      className="MuiCardContent-root-365"
+    >
+      <h2
+        className="MuiTypography-root-366 MuiTypography-headline-371 MuiTypography-gutterBottom-383"
+      >
+        Once Upon a Time in America
+      </h2>
+      <p
+        className="MuiTypography-root-366 MuiTypography-body1-375"
+      >
+        A former Prohibition-era Jewish gangster returns to the Lower East Side of Manhattan over thirty years later, where he once again must confront the ghosts and regrets of his old life.
+      </p>
+    </div>
+    <div
+      className="MuiCardActions-root-390"
+    >
+      <button
+        className="MuiButtonBase-root-416 MuiButton-root-392 MuiButton-text-394 MuiButton-textPrimary-395 MuiButton-flat-397 MuiButton-flatPrimary-398 MuiButton-sizeSmall-413 MuiCardActions-action-391"
+        disabled={false}
+        onBlur={[Function]}
+        onClick={undefined}
+        onFocus={[Function]}
+        onKeyDown={[Function]}
+        onKeyUp={[Function]}
+        onMouseDown={[Function]}
+        onMouseLeave={[Function]}
+        onMouseUp={[Function]}
+        onTouchEnd={[Function]}
+        onTouchMove={[Function]}
+        onTouchStart={[Function]}
+        tabIndex="0"
+        type="button"
+      >
+        <span
+          className="MuiButton-label-393"
+        >
+          Learn More
+        </span>
+        <span
+          className="MuiTouchRipple-root-419"
+        />
+      </button>
+    </div>
+  </div>
+  <div
+    className="MuiPaper-root-336 MuiPaper-elevation1-339 MuiPaper-rounded-337 MuiCard-root-335 movie-list-item"
+  >
+    <div
+      className="MuiCardMedia-root-363 movie-list-item-image"
+      src={undefined}
+      style={
+        Object {
+          "backgroundImage": "url(\\"//image.tmdb.org/t/p/w300/87hTDiay2N2qWyX4Ds7ybXi9h8I.jpg\\")",
+        }
+      }
+      title="Fight Club"
+    />
+    <div
+      className="MuiCardContent-root-365"
+    >
+      <h2
+        className="MuiTypography-root-366 MuiTypography-headline-371 MuiTypography-gutterBottom-383"
+      >
+        Fight Club
+      </h2>
+      <p
+        className="MuiTypography-root-366 MuiTypography-body1-375"
+      >
+        A ticking-time-bomb insomniac and a slippery soap salesman channel primal male aggression into a shocking new form of therapy. Their concept catches on, with underground "fight clubs" forming in every town, until an eccentric gets in the way and ignites an out-of-control spiral toward oblivion.
+      </p>
+    </div>
+    <div
+      className="MuiCardActions-root-390"
+    >
+      <button
+        className="MuiButtonBase-root-416 MuiButton-root-392 MuiButton-text-394 MuiButton-textPrimary-395 MuiButton-flat-397 MuiButton-flatPrimary-398 MuiButton-sizeSmall-413 MuiCardActions-action-391"
+        disabled={false}
+        onBlur={[Function]}
+        onClick={undefined}
+        onFocus={[Function]}
+        onKeyDown={[Function]}
+        onKeyUp={[Function]}
+        onMouseDown={[Function]}
+        onMouseLeave={[Function]}
+        onMouseUp={[Function]}
+        onTouchEnd={[Function]}
+        onTouchMove={[Function]}
+        onTouchStart={[Function]}
+        tabIndex="0"
+        type="button"
+      >
+        <span
+          className="MuiButton-label-393"
+        >
+          Learn More
+        </span>
+        <span
+          className="MuiTouchRipple-root-419"
+        />
+      </button>
+    </div>
+  </div>
+</ul>
+`;
+
+exports[`Storyshots MoviesList default 1`] = `
+<ul
+  className="MuiGridList-root-333"
+  style={
+    Object {
+      "margin": -2,
+    }
+  }
+/>
+`;

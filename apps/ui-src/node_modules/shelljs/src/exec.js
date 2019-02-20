@@ -1,5 +1,5 @@
 var common = require('./common');
-var _tempDir = require('./tempdir');
+var _tempDir = require('./tempdir').tempDir;
 var _pwd = require('./pwd');
 var path = require('path');
 var fs = require('fs');
@@ -96,7 +96,10 @@ function execSync(cmd, opts, pipe) {
   try { common.unlinkSync(stdoutFile); } catch (e) {}
 
   if (code !== 0) {
-    common.error(stderr, code, { continue: true });
+    // Note: `silent` should be unconditionally true to avoid double-printing
+    // the command's stderr, and to avoid printing any stderr when the user has
+    // set `shell.config.silent`.
+    common.error(stderr, code, { continue: true, silent: true });
   }
   var obj = common.ShellString(stdout, stderr, code);
   return obj;
