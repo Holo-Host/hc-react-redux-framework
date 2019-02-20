@@ -3,4 +3,4 @@ A react-redux framework for building Holo and Holochain applications with a Stor
 
 ## Coming soon: 
 #### Storybook
-Here is a Storybook of the components at [Holo Live Storybook](!https://Holo-Host.github.io/hc-react-redux-framework/).
+Check out the Holo Storybook of components at [Holo Live Storybook](!https://Holo-Host.github.io/hc-react-redux-framework/).
